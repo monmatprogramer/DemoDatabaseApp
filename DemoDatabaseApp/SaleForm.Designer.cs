@@ -106,7 +106,7 @@
             // txtInvoiceNo
             // 
             this.txtInvoiceNo.Location = new System.Drawing.Point(31, 114);
-            this.txtInvoiceNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtInvoiceNo.Margin = new System.Windows.Forms.Padding(4);
             this.txtInvoiceNo.Name = "txtInvoiceNo";
             this.txtInvoiceNo.Size = new System.Drawing.Size(159, 22);
             this.txtInvoiceNo.TabIndex = 3;
@@ -126,7 +126,7 @@
             // 
             this.cmbOrderDate.FormattingEnabled = true;
             this.cmbOrderDate.Location = new System.Drawing.Point(212, 113);
-            this.cmbOrderDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbOrderDate.Margin = new System.Windows.Forms.Padding(4);
             this.cmbOrderDate.Name = "cmbOrderDate";
             this.cmbOrderDate.Size = new System.Drawing.Size(159, 24);
             this.cmbOrderDate.TabIndex = 5;
@@ -146,7 +146,7 @@
             // 
             this.cmbCustomer.FormattingEnabled = true;
             this.cmbCustomer.Location = new System.Drawing.Point(393, 113);
-            this.cmbCustomer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbCustomer.Margin = new System.Windows.Forms.Padding(4);
             this.cmbCustomer.Name = "cmbCustomer";
             this.cmbCustomer.Size = new System.Drawing.Size(159, 24);
             this.cmbCustomer.TabIndex = 7;
@@ -166,7 +166,7 @@
             // 
             this.cmbSeller.FormattingEnabled = true;
             this.cmbSeller.Location = new System.Drawing.Point(575, 113);
-            this.cmbSeller.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbSeller.Margin = new System.Windows.Forms.Padding(4);
             this.cmbSeller.Name = "cmbSeller";
             this.cmbSeller.Size = new System.Drawing.Size(159, 24);
             this.cmbSeller.TabIndex = 9;
@@ -177,7 +177,7 @@
             this.btnOrder.BackColor = System.Drawing.Color.LightBlue;
             this.btnOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOrder.Location = new System.Drawing.Point(905, 111);
-            this.btnOrder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(4);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(100, 31);
             this.btnOrder.TabIndex = 10;
@@ -190,7 +190,7 @@
             this.btnReset.BackColor = System.Drawing.Color.LightCoral;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.Location = new System.Drawing.Point(1013, 111);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(100, 31);
             this.btnReset.TabIndex = 11;
@@ -219,7 +219,7 @@
             "testing2Wine",
             "testing3333testing3"});
             this.lstCategory.Location = new System.Drawing.Point(8, 28);
-            this.lstCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstCategory.Margin = new System.Windows.Forms.Padding(4);
             this.lstCategory.Name = "lstCategory";
             this.lstCategory.Size = new System.Drawing.Size(225, 388);
             this.lstCategory.TabIndex = 13;
@@ -246,7 +246,7 @@
             this.colProductId,
             this.colProductName});
             this.dgvProductList.Location = new System.Drawing.Point(8, 28);
-            this.dgvProductList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvProductList.Margin = new System.Windows.Forms.Padding(4);
             this.dgvProductList.Name = "dgvProductList";
             this.dgvProductList.ReadOnly = true;
             this.dgvProductList.RowHeadersWidth = 51;
@@ -293,7 +293,7 @@
             this.colCartPrice,
             this.colCartAmount});
             this.dgvCart.Location = new System.Drawing.Point(8, 28);
-            this.dgvCart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvCart.Margin = new System.Windows.Forms.Padding(4);
             this.dgvCart.Name = "dgvCart";
             this.dgvCart.RowHeadersWidth = 51;
             this.dgvCart.Size = new System.Drawing.Size(564, 308);
@@ -376,7 +376,7 @@
             // 
             this.txtTotalQty.BackColor = System.Drawing.Color.LightYellow;
             this.txtTotalQty.Location = new System.Drawing.Point(208, 399);
-            this.txtTotalQty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalQty.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalQty.Name = "txtTotalQty";
             this.txtTotalQty.ReadOnly = true;
             this.txtTotalQty.Size = new System.Drawing.Size(79, 22);
@@ -388,7 +388,7 @@
             // 
             this.txtTotalPrice.BackColor = System.Drawing.Color.LightYellow;
             this.txtTotalPrice.Location = new System.Drawing.Point(315, 399);
-            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalPrice.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.ReadOnly = true;
             this.txtTotalPrice.Size = new System.Drawing.Size(105, 22);
@@ -401,7 +401,7 @@
             this.txtTotalAmount.BackColor = System.Drawing.Color.LightYellow;
             this.txtTotalAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalAmount.Location = new System.Drawing.Point(452, 399);
-            this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalAmount.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalAmount.Name = "txtTotalAmount";
             this.txtTotalAmount.ReadOnly = true;
             this.txtTotalAmount.Size = new System.Drawing.Size(119, 24);
@@ -415,8 +415,8 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblCategory);
             this.panel1.Controls.Add(this.lstCategory);
-            this.panel1.Location = new System.Drawing.Point(21, 160);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Location = new System.Drawing.Point(21, 217);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(242, 430);
             this.panel1.TabIndex = 25;
@@ -427,8 +427,8 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.lblProductList);
             this.panel2.Controls.Add(this.dgvProductList);
-            this.panel2.Location = new System.Drawing.Point(272, 160);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(272, 217);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(373, 430);
             this.panel2.TabIndex = 26;
@@ -446,8 +446,8 @@
             this.panel3.Controls.Add(this.lblTotalPrice);
             this.panel3.Controls.Add(this.txtTotalQty);
             this.panel3.Controls.Add(this.lblTotalAmount);
-            this.panel3.Location = new System.Drawing.Point(653, 160);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(653, 217);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(586, 430);
             this.panel3.TabIndex = 27;
@@ -467,10 +467,10 @@
             this.panel4.Controls.Add(this.cmbSeller);
             this.panel4.Controls.Add(this.btnOrder);
             this.panel4.Controls.Add(this.btnReset);
-            this.panel4.Location = new System.Drawing.Point(21, 43);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(21, 40);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1218, 109);
+            this.panel4.Size = new System.Drawing.Size(1218, 162);
             this.panel4.TabIndex = 28;
             // 
             // SaleForm
@@ -478,19 +478,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1259, 622);
+            this.ClientSize = new System.Drawing.Size(1259, 694);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblPosSystem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "SaleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SaleForm";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.SaleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCart)).EndInit();
             this.panel1.ResumeLayout(false);

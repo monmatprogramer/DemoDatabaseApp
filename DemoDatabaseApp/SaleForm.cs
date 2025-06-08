@@ -18,14 +18,14 @@ namespace DemoDatabaseApp
         private DatabaseManager dbManager;
         private bool useDatabase = false;
 
-        public SaleForm()
+        public SaleForm()//this is instace
             {
             InitializeComponent();
             InitializeDatabaseConnection();
             InitializeData();
             }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void SaleForm_Load(object sender, EventArgs e)
             {
             LoadComboBoxData();
             GenerateInvoiceNumber();
@@ -47,6 +47,7 @@ namespace DemoDatabaseApp
             // If not using database, categories are already loaded from sample data
             }
 
+        //It is called when the form is loaded to initialize the database connection
         private void InitializeDatabaseConnection()
             {
             try
@@ -88,7 +89,7 @@ namespace DemoDatabaseApp
                 },
                 ["testing2Wine"] = new List<Product>
                 {
-                    new Product { Id = 5, Name = "Red Wine Premium", Price = 15.50m },
+                    new Product { Id = 5, Name = "Red Wine Premium pro", Price = 15.50m },
                     new Product { Id = 6, Name = "White Wine Classic", Price = 12.75m },
                     new Product { Id = 7, Name = "Champagne Special", Price = 25.00m },
                     new Product { Id = 8, Name = "Rose Wine Local", Price = 18.50m }
